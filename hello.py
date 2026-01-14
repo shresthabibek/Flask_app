@@ -12,3 +12,8 @@ def hello():
 @app.route("/ping", methods=['GET'])
 def ping():
     return {"message" : "why are you pinging me?"}
+
+@app.route("/ping", methods=['POST'])
+def post():
+    pass
+
