@@ -70,5 +70,5 @@ jobs:
       with:
         task-definition: ${{ steps.task-def.outputs.task-definition }}
         service: loan_app_service
-        cluster: loan_app_cluster
+        cluster: loan_app_clusters
         wait-for-service-stability: true
